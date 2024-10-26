@@ -1,5 +1,4 @@
 import { Application, Router } from "https://deno.land/x/oak@v17.1.2/mod.ts";
-import helloWorldRouter from "./controller/helloWorldRoute.ts";
 import { FRONTEND_URL, MONGODB_URI, SERVER_PORT } from "./environment/environment.ts";
 import logger from "./middleware/logger.ts";
 import mongoose from "npm:mongoose";
