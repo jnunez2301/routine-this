@@ -56,9 +56,5 @@ authRouter.post("/login", async (req, res, next) => {
   res.json({...apiResponse(true, "Logged in successfully"), token});
   next();
 });
-/* Example of JWT usage
-authRouter.get("/protected", verifyToken, (req, res) => {
-  return res.status(200).json({ message: "You have access" });
-}); */
 
 module.exports = authRouter;

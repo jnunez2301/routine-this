@@ -28,7 +28,15 @@ app.get('/', (req, res) => {
   })
 })
 
+
 mongoConnect();
+/* Example of JWT middleware
+authRouter.get("/protected", verifyToken, (req, res) => {
+  return res.status(200).json({ message: "You have access" });
+}); 
+also this can be used on routers
+app.use("/foo/bar", verifyToken, fooRouter)
+*/
 // Routes
 app.use("/api/auth", authRouter);
 
