@@ -1,14 +1,7 @@
-import mongoose from "npm:mongoose";
-import { Schema } from "npm:mongoose";
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
 
-export interface iUser {
-  username: string;
-  createdAt: Date;
-  password: string;
-  secretAnswer: string;
-}
-
-const userSchema = new Schema<iUser>({
+const userSchema = new Schema({
   username: {
     type: String,
     min: [2, "You must add at least 2 character"],
@@ -36,4 +29,6 @@ const userSchema = new Schema<iUser>({
   },
 });
 
-export const User = mongoose.model("User", userSchema);
+const userModel = mongoose.model("User", userSchema);
+
+module.exports = userModel;

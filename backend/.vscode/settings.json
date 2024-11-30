@@ -1,6 +1,3 @@
 {
-  "cSpell.words": [
-    "MONGODB"
-  ],
-  "deno.enable": true
+  "deno.enable": false
 }
