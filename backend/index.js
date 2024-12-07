@@ -3,7 +3,8 @@ const cors = require('cors');
 const { PORT, FRONTEND_URL, JWT_SECRET_KEY } = require('./environment/environment');
 const authRouter = require('./controller/auth/authController');
 const { mongoConnect } = require('./mongoConnect');
-const morgan = require('morgan')
+const morgan = require('morgan');
+const exerciseRouter = require('./controller/exercise/exerciseController');
 
 const app = express();
 if(!FRONTEND_URL){
@@ -30,15 +31,11 @@ app.get('/', (req, res) => {
 
 
 mongoConnect();
-/* Example of JWT middleware
-authRouter.get("/protected", verifyToken, (req, res) => {
-  return res.status(200).json({ message: "You have access" });
-}); 
-also this can be used on routers
-app.use("/foo/bar", verifyToken, fooRouter)
-*/
+
 // Routes
 app.use("/api/auth", authRouter);
+// Read is allowed for anyone so they can take a quick look of any exercise and how it's done
+app.use("/api/exercises", exerciseRouter);
 
 app.listen(parseInt(PORT), () => {
   console.log(`Server running on \n http://localhost:${PORT}`)

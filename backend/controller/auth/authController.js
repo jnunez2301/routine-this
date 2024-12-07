@@ -4,16 +4,14 @@ const userModel = require("../../model/User");
 const { hashText, compareText } = require("../../service/TextEncrypt");
 const jwt = require("jsonwebtoken");
 const { JWT_SECRET_KEY } = require("../../environment/environment");
-const verifyToken = require("../../middleware/verifyJwt");
-
+const isAFieldMissing = require("../../util/isAFieldMissing");
 const authRouter = express.Router();
-// const authRouter = new Router();
 
 authRouter.post("/register", async (req, res, next) => {
   const { username, password, secretAnswer } = req.body;
-  if (!username || !password || !secretAnswer) {
+  if (isAFieldMissing([username, password, secretAnswer])) {
     res.status = 400;
-    res.json(apiResponse(false, "JSON is malformed"));
+    res.json(jsonMalformed);
     return;
   }
   const bdUser = await userModel.findOne({ username: username });
@@ -34,9 +32,9 @@ authRouter.post("/register", async (req, res, next) => {
 });
 authRouter.post("/login", async (req, res, next) => {
   const { username, password } = req.body;
-  if (!username || !password) {
+  if(isAFieldMissing([username, password])) {
     res.status = 400;
-    res.json(apiResponse(false, "JSON is malformed"));
+    res.json(jsonMalformed);
     return;
   }
   const bdUser = await userModel.findOne({ username: username });
