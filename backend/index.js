@@ -5,6 +5,7 @@ const authRouter = require('./controller/auth/authController');
 const { mongoConnect } = require('./mongoConnect');
 const morgan = require('morgan');
 const exerciseRouter = require('./controller/exercise/exerciseController');
+const routineRouter = require('./controller/routine/routineController');
 
 const app = express();
 if(!FRONTEND_URL){
@@ -36,6 +37,7 @@ mongoConnect();
 app.use("/api/auth", authRouter);
 // Read is allowed for anyone so they can take a quick look of any exercise and how it's done
 app.use("/api/exercises", exerciseRouter);
+app.use("/api/routines", routineRouter);
 
 app.listen(parseInt(PORT), () => {
   console.log(`Server running on \n http://localhost:${PORT}`)

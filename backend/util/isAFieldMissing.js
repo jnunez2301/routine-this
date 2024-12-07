@@ -1,5 +1,4 @@
 /** 
- * *
  * @param {string[]} fields - Provide an array of fields to verify
  * @param {boolean} verbose - Logs in to the console all fields that are being passed default is false
  * @returns {boolean} true if any field is does not exist

@@ -7,15 +7,15 @@ const Schema = mongoose.Schema;
 const exerciseSchema = new Schema({
   name: {
     type: String,
-    min: [2, "Exercise name has to be at least 2 character long"],
-    max: [255, "Exercise name is too long"],
+    minLength: [2, "Exercise name has to be at least 2 character long"],
+    maxLength: [255, "Exercise name is too long"],
     required: [true, "You must provide a name to the exercise"],
     unique: true,
   },
   description: {
     type: String,
-    min: [5, "Description can't be less than 5 characters long"],
-    max: [255, "Description has to be shorter"],
+    minLength: [5, "Description can't be less than 5 characters long"],
+    maxLength: [255, "Description has to be shorter"],
     default: "This exercise doesn't have a description"
   },
   videoUrl: {

@@ -4,8 +4,8 @@ const Schema = mongoose.Schema;
 const userSchema = new Schema({
   username: {
     type: String,
-    min: [2, "You must add at least 2 character"],
-    max: [32, "Your name is too long, try something shorter"],
+    minLength: [2, "You must add at least 2 character"],
+    maxLength: [32, "Your name is too long, try something shorter"],
     unique: true,
     required: [true, "Please assign a username"],
   },
@@ -16,6 +16,7 @@ const userSchema = new Schema({
   },
   password: {
     type: String,
+    minLength: [6, "Password must be at least 6 characters long"],
     required: [true, "Password field cannot be empty"],
   },
   secretAnswer: {
@@ -24,8 +25,8 @@ const userSchema = new Schema({
       true,
       "Just in case you forget private info, we must add an answer",
     ],
-    min: [1, "Answer has to be at least 1 character long"],
-    max: [255, "Answer is too long"],
+    minLength: [1, "Answer has to be at least 1 character long"],
+    maxLength: [255, "Answer is too long"],
   },
 });
 

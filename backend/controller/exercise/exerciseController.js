@@ -8,7 +8,7 @@ const ExerciseTypeEnum = require("../../model/enum/ExerciseTypeEnum");
 const BodyPartEnum = require("../../model/enum/BodyPartEnum");
 const exerciseRouter = express.Router();
 
-exerciseRouter.get("", async (_req, res) => {
+exerciseRouter.get("/", async (_req, res) => {
   const allExercises = await exerciseModel.find({});
   res.json(allExercises);
 });
@@ -42,7 +42,7 @@ exerciseRouter.post("/", verifyToken, async (req, res, next) => {
       type,
     };
     await exerciseModel.create(newExercise);
-    res.status(201), res.json(apiResponse(true, "Exercise created"));
+    res.status(201).json(apiResponse(true, "Exercise created"));
   } catch (error) {
     res.status(500).json(apiResponse(false, "Internal server error"));
     console.error(error);
