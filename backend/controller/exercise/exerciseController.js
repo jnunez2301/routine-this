@@ -41,8 +41,8 @@ exerciseRouter.post("/", verifyToken, async (req, res, next) => {
       bodyPart,
       type,
     };
-    await exerciseModel.create(newExercise);
-    res.status(201).json(apiResponse(true, "Exercise created"));
+    const newBdExercise = await exerciseModel.create(newExercise);
+    res.status(201).json(apiResponse(true, "Exercise created", newBdExercise));
   } catch (error) {
     res.status(500).json(apiResponse(false, "Internal server error"));
     console.error(error);
@@ -72,8 +72,8 @@ exerciseRouter.put("/", verifyToken, async (req, res, next) => {
     bdExercise.bodyPart = bodyPart;
     bdExercise.type = type;
 
-    await bdExercise.save();
-    res.status(200).json(apiResponse(true, "Exercise updated"));
+    const updatedExercise = await bdExercise.save();
+    res.status(200).json(apiResponse(true, "Exercise updated", updatedExercise));
   } catch (error) {
     res.status(500).json(apiResponse(false, "Internal server error"));
     console.error(error);
@@ -93,12 +93,13 @@ exerciseRouter.delete("/:exerciseId", verifyToken, async (req, res, next) => {
       res.status(404).json(apiResponse(false, "The exercise you are trying to delete does not exist"))
       return;
     }
-    await bdExercise.deleteOne({ _id: exerciseId });
+    await exerciseModel.deleteOne({ _id: exerciseId });
     res.status(200).json(apiResponse(true, "Exercise deleted!"))
   } catch (error) {
     res.status(500).json(apiResponse(false, "Internal server error"));
     console.error(error);
   }
   next();
-})
+});
+
 module.exports = exerciseRouter;
