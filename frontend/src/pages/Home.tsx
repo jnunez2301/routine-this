@@ -3,10 +3,8 @@ import { Outlet } from "@tanstack/react-router";
 const Home = () => {
   return (
     <>
-      <div>
-        Home.tsx - Navbar
-      </div>
-      <hr />
+      <h1>Home</h1>
+      <p>Home</p>
       <Outlet />
     </>
   );
