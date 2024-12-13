@@ -1,12 +1,65 @@
-import { Outlet } from "@tanstack/react-router";
+import { useEffect, useState } from "react";
+import "./home.styles.css";
+import { useNavigate } from "@tanstack/react-router";
+import UserIcon from "../components/icons/UserIcon";
+import DumbbellIcon from "../components/icons/DumbbellIcon";
 
 const Home = () => {
+  const [isLoading, setIsLoading] = useState<boolean>(true);
+  const navigate = useNavigate();
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 1000);
+  }, []);
+  function navigateToPublicRoutines() {
+    navigate({
+      to: "/routines",
+    });
+  }
+  function handleNavigateToAuth() {
+    navigate({
+      to: "/auth",
+    });
+  }
   return (
-    <>
-      <h1>Home</h1>
-      <p>Home</p>
-      <Outlet />
-    </>
+    <section className="home">
+      <div
+        style={{
+          borderRadius: "5px",
+          padding: "1rem",
+        }}
+      >
+        <header className="sub-title">
+          <div className="app-title-routine">
+            <h2>Routine </h2>
+          </div>
+          <div className="app-subtitle">
+            <h2>This</h2>
+            <div className="line"></div>
+          </div>
+        </header>
+        <div
+          className="get-started"
+          style={{
+            opacity: isLoading ? "0" : "1",
+            transition: "opacity .3S linear",
+          }}
+        >
+          <p>Keep it simple or spice it a little</p>
+          <div className="get-started-btn-container">
+            <button className="btn" onClick={navigateToPublicRoutines}>
+              <DumbbellIcon />
+              Routines
+            </button>
+            <button className="btn secondary" onClick={handleNavigateToAuth}>
+              <UserIcon />
+              Authenticate
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
   );
 };
 

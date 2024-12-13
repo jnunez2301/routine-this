@@ -1,0 +1,103 @@
+@keyframes slide-in {
+  from {
+    transform: translateX(-10000px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fromBottomToTop {
+  from {
+    transform: translateY(10000px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes popGelatin {
+  0% {
+    opacity: 0.5;
+    transform: scale(1) skew(0deg)  translateX(500px);
+  }
+  30% {
+    transform: scale(1.5) skew(-5deg);
+  }
+  50% {
+    transform: scale(0.9) skew(5deg) translateX(0);
+  }
+  70% {
+    transform: scale(1.1) skew(-3deg);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) skew(0deg);
+  }
+}
+@keyframes wideIt{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 100%;
+  }
+}
+.home{
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+.welcome{
+  animation: slide-in .5s ease;
+}
+.sub-title{
+  display: flex;
+  gap: .3rem;
+  
+}
+.app-subtitle{
+  display: grid;
+}
+.app-title-routine {
+  animation: fromBottomToTop .3s ease;
+  background: linear-gradient(-15deg, var(--palette-900), var(--palette-200));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.app-subtitle h2{
+  font-size: 3rem;
+  animation: popGelatin 1.1s ease-in-out;
+  background: linear-gradient(15deg, var(--palette-600), var(--palette-200));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.line{
+  height: 4px;
+  animation: wideIt 1.5s ease-in-out;
+  width: 100%;
+  background: linear-gradient(15deg, var(--palette-600), var(--palette-200));
+}
+
+.get-started{
+  margin: 1rem 0;
+  text-align: center;
+}
+.get-started-btn-container{
+  display: flex;
+  margin: 1rem 0;
+  gap: 1rem;
+}

@@ -3,3 +3,75 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* Base color: #FF4500 using uicolors.app palette*/
+:root {
+  /* Background-color */
+  --palette-0: #ffffff;
+  /* Light text */
+  --palette-50: #f5f5f1;
+  --palette-100: #e6e5db;
+  --palette-200: #cfccb9;
+  --palette-300: #b3af91;
+  --palette-400: #9d9672;
+  --palette-500: #8f8563;
+  --palette-600: #7e7257;
+  --palette-700: #635745;
+  --palette-800: #554a3e;
+  --palette-900: #4b4138;
+  /* Text color */
+  --palette-950: #2a231e;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--palette-0);
+}
+.btn{
+  padding: 10px 15px;
+  height: 40px;
+  border: none;
+  /* background: linear-gradient(-180deg, var(--palette-500), var(--palette-400)); */
+  background-color: var(--palette-500);
+  color: var(--palette-50);
+  font-weight: bold;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color .2s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .2rem;
+}
+.btn:hover{
+  background-color: var(--palette-600);
+}
+.btn.secondary{
+  background-color: var(--palette-200);
+  color: var(--palette-700);
+}
+.btn.secondary:hover{
+  background-color: var(--palette-400);
+}
+.btn.danger{
+  background-color: var(--palette-800);
+}
+.btn.danger:hover{
+  background-color: var(--palette-700);
+}
+.btn.outlined{
+  background-color: transparent;
+  color: var(--palette-950);
+  outline: 1px solid var(--palette-200);
+  transition: all .2s ease-in-out;
+}
+.btn.outlined:hover{
+  background-color: var(--palette-50);
+  outline: 1px solid var(--palette-600);
+}
+.btn.transparent{
+  background-color: transparent;
+  color: var(--palette-950);
+}
+.btn.transparent:hover{
+  background-color: var(--palette-50);
+  outline: 1px solid var(--palette-600);
+}

@@ -1,0 +1,15 @@
+#navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: .5rem;
+}
+.left-menu{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+@media (max-width: 768px){
+  .left-menu button{
+    display: none;
+  }
+}
