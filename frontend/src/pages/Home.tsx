@@ -53,7 +53,7 @@ const Home = () => {
               Routines
             </button>
             <button className="btn secondary" onClick={handleNavigateToAuth}>
-              <UserIcon />
+              <UserIcon/>
               Authenticate
             </button>
           </div>

@@ -9,14 +9,17 @@ import {
 import Home from "../pages/Home";
 import { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
+import Authenticate from "../pages/auth/Authenticate";
+import Register from "../pages/auth/Register";
+import Login from "../pages/auth/Login";
 
 const rootRoute = createRootRoute({
   component: () => {
     const location = useLocation();
     const [isHome, setIsHome] = useState<boolean>(false);
     useEffect(() => {
-      setIsHome(location.pathname === "/")
-    }, [location])
+      setIsHome(location.pathname === "/" || location.pathname.includes("auth"));
+    }, [location]);
     return (
       <>
         {!isHome && <Navbar />}
@@ -35,19 +38,29 @@ const homeRoute = createRoute({
 const authRoute = createRoute({
   getParentRoute: () => rootRoute,
   path: "/auth",
-  component: () => <p>auth</p>,
+  component: () => <Authenticate />,
+});
+const loginRoute = createRoute({
+  getParentRoute: () => authRoute,
+  path: "/",
+  component: () => <Login />,
+});
+const registerRoute = createRoute({
+  getParentRoute: () => authRoute,
+  path: "/register",
+  component: () => <Register />,
 });
 
 const routinesRoute = createRoute({
-  getParentRoute: () => rootRoute,
+  getParentRoute: () => authRoute,
   path: "/routines",
   component: () => <p>routines</p>,
 });
 
 const routeTree = rootRoute.addChildren([
   homeRoute,
-  authRoute,
-  routinesRoute
+  authRoute.addChildren([loginRoute, registerRoute]),
+  routinesRoute,
 ]);
 
 const router = createRouter({ routeTree });

@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 const userSchema = new Schema({
   username: {
     type: String,
-    minLength: [2, "You must add at least 2 character"],
+    minLength: [4, "You must add at least 2 character"],
     maxLength: [32, "Your name is too long, try something shorter"],
     unique: true,
     required: [true, "Please assign a username"],

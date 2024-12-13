@@ -75,3 +75,7 @@ body {
   background-color: var(--palette-50);
   outline: 1px solid var(--palette-600);
 }
+.text.info{
+  color: var(--palette-300);
+  font-size: small;
+}
