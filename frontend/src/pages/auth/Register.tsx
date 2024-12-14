@@ -27,6 +27,7 @@ const Register = () => {
   return (
     <form onSubmit={form.onSubmit(handleRegister)}>
       <h2>Register</h2>
+      <p>Just be fit in your own way</p>
       <TextInput
         my="md"
         placeholder="Username"

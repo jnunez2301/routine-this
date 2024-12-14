@@ -38,6 +38,7 @@ const Login = () => {
   return (
     <form onSubmit={form.onSubmit(handleLogin)}>
       <h2>Login</h2>
+      <p>Welcome back, lets workout!</p>
       <TextInput
         my="md"
         placeholder="Username"
