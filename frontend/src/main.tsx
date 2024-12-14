@@ -5,11 +5,15 @@ import router from "./router/router";
 import "@mantine/core/styles.css";
 import "./index.css";
 import { MantineProvider } from "@mantine/core";
+import { Provider } from "react-redux";
+import { store } from "./store";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <MantineProvider>
-      <RouterProvider router={router} />
-    </MantineProvider>
+    <Provider store={store}>
+      <MantineProvider>
+        <RouterProvider router={router} />
+      </MantineProvider>
+    </Provider>
   </StrictMode>
 );

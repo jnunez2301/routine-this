@@ -23,6 +23,11 @@ const exerciseSchema = new Schema({
     default: "",
     min: [8, "For security reasons you will have to provide a larger url"],
   },
+  imgUrl: {
+    type: String,
+    default: "",
+    min: [8, "For security reasons you will have to provide a larger url"],
+  },
   bodyPart: {
     type: String,
     enum: Object.values(BodyPartEnum),

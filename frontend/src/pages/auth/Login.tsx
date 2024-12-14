@@ -1,28 +1,39 @@
 import { PasswordInput, TextInput } from "@mantine/core";
 import { useForm } from "@mantine/form";
-import { Link } from "@tanstack/react-router";
+import { Link, useNavigate } from "@tanstack/react-router";
 import { apiUrl } from "../../environment";
+import { useDispatch } from "react-redux";
+import { AppDispatch } from "../../store";
+import { ApiResponse } from "../../model/ApiResponse";
+import { login } from "../../cake/authSlice";
 
 const Login = () => {
   const initialValues = {
     username: "",
     password: "",
   };
+  const dispatch = useDispatch<AppDispatch>();
+  const navigate = useNavigate();
   const form = useForm({
     mode: "uncontrolled",
     initialValues,
   });
   async function handleLogin(values: typeof form.values) {
-    const response = await fetch(`${apiUrl}/auth/login`,{
-      method: 'POST',
+    const response = await fetch(`${apiUrl}/auth/login`, {
+      method: "POST",
       headers: {
-        'Content-Type': 'application/json',
+        "Content-Type": "application/json",
       },
-      body: JSON.stringify(values)
-    })
-    const apiResponse = await response.json();
+      body: JSON.stringify(values),
+    });
+    const apiResponse: ApiResponse = await response.json();
 
-    console.log(apiResponse)
+    if (apiResponse.success && apiResponse.token) {
+      dispatch(login({ user: values.username, token: apiResponse.token }));
+      navigate({
+        to: '/'
+      })
+    }
   }
   return (
     <form onSubmit={form.onSubmit(handleLogin)}>

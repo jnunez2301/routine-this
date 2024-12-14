@@ -52,7 +52,7 @@ const registerRoute = createRoute({
 });
 
 const routinesRoute = createRoute({
-  getParentRoute: () => authRoute,
+  getParentRoute: () => rootRoute,
   path: "/routines",
   component: () => <p>routines</p>,
 });

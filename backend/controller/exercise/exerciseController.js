@@ -22,7 +22,7 @@ exerciseRouter.get("/bodyParts", async (_req, res) =>
 
 exerciseRouter.post("/", verifyToken, async (req, res, next) => {
   try {
-    const { name, description, videoUrl, bodyPart, type } = req.body;
+    const { name, description, videoUrl, imgUrl, bodyPart, type } = req.body;
     if (isAFieldMissing([name, description, bodyPart, type])) {
       res.status = 400;
       res.json(jsonMalformed);
@@ -38,6 +38,7 @@ exerciseRouter.post("/", verifyToken, async (req, res, next) => {
       name,
       description,
       videoUrl,
+      imgUrl,
       bodyPart,
       type,
     };
@@ -52,7 +53,7 @@ exerciseRouter.post("/", verifyToken, async (req, res, next) => {
 
 exerciseRouter.put("/", verifyToken, async (req, res, next) => {
   try {
-    const { _id, name, description, videoUrl, bodyPart, type } = req.body;
+    const { _id, name, description, videoUrl, imgUrl, bodyPart, type } = req.body;
     if (isAFieldMissing([_id, name, description, bodyPart, type])) {
       res.status(400).json(jsonMalformed);
       return;
@@ -69,6 +70,7 @@ exerciseRouter.put("/", verifyToken, async (req, res, next) => {
     bdExercise.name = name;
     bdExercise.description = description;
     bdExercise.videoUrl = videoUrl;
+    bdExercise.imgUrl = imgUrl;
     bdExercise.bodyPart = bodyPart;
     bdExercise.type = type;
 
