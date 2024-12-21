@@ -1,4 +1,3 @@
-
 export interface IExercise {
   name: string;
   description?: string; // Optional because it has a default value

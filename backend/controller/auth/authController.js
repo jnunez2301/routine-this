@@ -5,6 +5,7 @@ const { hashText, compareText } = require("../../service/TextEncrypt");
 const jwt = require("jsonwebtoken");
 const { JWT_SECRET_KEY } = require("../../environment/environment");
 const isAFieldMissing = require("../../util/isAFieldMissing");
+const verifyToken = require("../../middleware/verifyJwt");
 const authRouter = express.Router();
 
 authRouter.post("/register", async (req, res, next) => {
@@ -31,6 +32,19 @@ authRouter.post("/register", async (req, res, next) => {
     res.json(apiResponse(true, `User ${username} created successfully`));
   } catch (error) {
     console.log(error);
+  }
+  next();
+});
+authRouter.get('/profile', verifyToken, async (req, res, next) => {
+  try {
+    const bdUser = await userModel.findOne({ username: req.username });
+    if (!bdUser) {
+      res.status(404).json(apiResponse(false, "You are not authorized to look this content"));
+      return;
+    }
+    res.status(200).json(apiResponse(true, `Welcome ${bdUser.username}` , {username: bdUser.username}));
+  } catch (error) {
+    console.error(error);
   }
   next();
 });

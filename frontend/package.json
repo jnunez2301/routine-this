@@ -14,6 +14,7 @@
     "@mantine/form": "^7.15.1",
     "@mantine/hooks": "^7.15.1",
     "@reduxjs/toolkit": "^2.5.0",
+    "@tanstack/react-query": "^5.62.8",
     "@tanstack/react-router": "^1.85.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",

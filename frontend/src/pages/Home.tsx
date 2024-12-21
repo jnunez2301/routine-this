@@ -3,15 +3,23 @@ import "./home.styles.css";
 import { useNavigate } from "@tanstack/react-router";
 import UserIcon from "../components/icons/UserIcon";
 import DumbbellIcon from "../components/icons/DumbbellIcon";
+import { useSelector } from "react-redux";
+import { selectAuth } from "../cake/authSlice";
 
 const Home = () => {
   const [isLoading, setIsLoading] = useState<boolean>(true);
+  const authState = useSelector(selectAuth);
   const navigate = useNavigate();
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
     }, 1000);
   }, []);
+  function navigateToMyApp() {
+    navigate({
+      to: "/app",
+    });
+  }
   function navigateToPublicRoutines() {
     navigate({
       to: "/routines",
@@ -22,6 +30,7 @@ const Home = () => {
       to: "/auth",
     });
   }
+
   return (
     <section className="home">
       <div
@@ -52,10 +61,17 @@ const Home = () => {
               <DumbbellIcon />
               Routines
             </button>
-            <button className="btn secondary" onClick={handleNavigateToAuth}>
-              <UserIcon/>
-              Authenticate
-            </button>
+            {authState.isAuthenticated ? (
+              <button className="btn danger" onClick={navigateToMyApp}>
+                <UserIcon />
+                My Profile
+              </button>
+            ) : (
+              <button className="btn secondary" onClick={handleNavigateToAuth}>
+                <UserIcon />
+                Authenticate
+              </button>
+            )}
           </div>
         </div>
       </div>

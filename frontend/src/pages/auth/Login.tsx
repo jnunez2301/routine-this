@@ -31,7 +31,7 @@ const Login = () => {
     if (apiResponse.success && apiResponse.token) {
       dispatch(login({ user: values.username, token: apiResponse.token }));
       navigate({
-        to: '/'
+        to: '/app'
       })
     }
   }

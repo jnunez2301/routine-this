@@ -1,9 +1,11 @@
 import { PasswordInput, TextInput } from "@mantine/core";
 import { useForm } from "@mantine/form";
-import { Link } from "@tanstack/react-router";
+import { Link, useNavigate } from "@tanstack/react-router";
 import { apiUrl } from "../../environment";
+import { ApiResponse } from "../../model/ApiResponse";
 
 const Register = () => {
+  const navigate = useNavigate();
   const initialValues = {
     username: "",
     password: "",
@@ -21,8 +23,12 @@ const Register = () => {
       },
       body: JSON.stringify(values)
     })
-    const apiResponse = await response.json();
-    console.log(apiResponse);
+    const apiResponse: ApiResponse = await response.json();
+    if(apiResponse.success){
+      navigate({
+        to: "/auth"
+      })
+    }
   }
   return (
     <form onSubmit={form.onSubmit(handleRegister)}>
