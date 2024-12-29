@@ -7,8 +7,6 @@ import {
   useLocation,
 } from "@tanstack/react-router";
 import Home from "../pages/Home";
-import { useEffect, useState } from "react";
-import Navbar from "../components/Navbar";
 import Authenticate from "../pages/auth/Authenticate";
 import Register from "../pages/auth/Register";
 import Login from "../pages/auth/Login";
@@ -18,11 +16,13 @@ import { apiUrl } from "../environment";
 import { ApiResponse } from "../model/ApiResponse";
 import { AppDispatch } from "../store";
 import { useDispatch } from "react-redux";
+import { App } from "../pages/app/App";
+import { Routines } from "../pages/routines/Routines";
+import { Exercises } from "../pages/exercises/Exercises";
+import Navbar from "../components/Navbar";
 
 const rootRoute = createRootRoute({
   component: () => {
-    const location = useLocation();
-    const [isHome, setIsHome] = useState<boolean>(false);
     const dispatch = useDispatch<AppDispatch>();
     useQuery({
       queryKey: ['user-profile'],
@@ -39,12 +39,11 @@ const rootRoute = createRootRoute({
         return apiResponse.data;
       }
     })
-    useEffect(() => {
-      setIsHome(location.pathname === "/" || location.pathname.includes("auth"));
-    }, [location]);
+    const location = useLocation();
+    const hideNav = !['', '/', "app"].includes(location.pathname) && !location.pathname.includes("app");
     return (
       <>
-        {!isHome && <Navbar />}
+        {hideNav && <Navbar  />}
         <Outlet />
       </>
     );
@@ -76,21 +75,21 @@ const registerRoute = createRoute({
 const routinesRoute = createRoute({
   getParentRoute: () => rootRoute,
   path: "/routines",
-  component: () => <p>routines</p>,
+  component: () => <Routines />,
 });
 const exercisesRoute = createRoute({
   getParentRoute: () => rootRoute,
   path: '/exercises',
-  component: () => <p>Exercises</p>
+  component: () => <Exercises />
 })
 const myApp =  createRoute({
   getParentRoute: () => rootRoute,
   path: '/app',
-  component:  () => <p>Routine-This App</p>
+  component:  () => <App />
 })
 const myRoutines = createRoute({
   getParentRoute: () => myApp,
-  path: '/my-routines',
+  path: '/',
   component: () => <p>My routines</p>
 })
 const myExercises = createRoute({
