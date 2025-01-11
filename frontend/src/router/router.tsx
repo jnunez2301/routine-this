@@ -1,21 +1,13 @@
-/* eslint-disable react-hooks/rules-of-hooks */
 import {
   createRouter,
   createRootRoute,
   Outlet,
   createRoute,
-  useLocation,
 } from "@tanstack/react-router";
 import Home from "../pages/Home";
 import Authenticate from "../pages/auth/Authenticate";
 import Register from "../pages/auth/Register";
 import Login from "../pages/auth/Login";
-import { useQuery } from "@tanstack/react-query";
-import { profile, TOKEN_KEY } from "../cake/authSlice";
-import { apiUrl } from "../environment";
-import { ApiResponse } from "../model/ApiResponse";
-import { AppDispatch } from "../store";
-import { useDispatch } from "react-redux";
 import { App } from "../pages/app/App";
 import { Routines } from "../pages/routines/Routines";
 import { Exercises } from "../pages/exercises/Exercises";
@@ -23,8 +15,8 @@ import Navbar from "../components/Navbar";
 
 const rootRoute = createRootRoute({
   component: () => {
-    const dispatch = useDispatch<AppDispatch>();
-    useQuery({
+    // const dispatch = useDispatch<AppDispatch>();
+    /* useQuery({
       queryKey: ['user-profile'],
       queryFn: async() => {
         const response = await fetch(`${apiUrl}/auth/profile`, {
@@ -38,12 +30,10 @@ const rootRoute = createRootRoute({
         dispatch(profile({username, isLoggedIn: apiResponse.success}))
         return apiResponse.data;
       }
-    })
-    const location = useLocation();
-    const hideNav = !['', '/', "app"].includes(location.pathname) && !location.pathname.includes("app");
+    }) */
     return (
       <>
-        {hideNav && <Navbar  />}
+        <Navbar  />
         <Outlet />
       </>
     );

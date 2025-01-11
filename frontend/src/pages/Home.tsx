@@ -3,12 +3,9 @@ import "./home.styles.css";
 import { useNavigate } from "@tanstack/react-router";
 import UserIcon from "../components/icons/UserIcon";
 import DumbbellIcon from "../components/icons/DumbbellIcon";
-import { useSelector } from "react-redux";
-import { selectAuth } from "../cake/authSlice";
 
 const Home = () => {
   const [isLoading, setIsLoading] = useState<boolean>(true);
-  const authState = useSelector(selectAuth);
   const navigate = useNavigate();
   useEffect(() => {
     setTimeout(() => {
@@ -61,7 +58,8 @@ const Home = () => {
               <DumbbellIcon />
               Routines
             </button>
-            {authState.isAuthenticated ? (
+            {/* TODO: Change this conditional */}
+            {false ? (
               <button className="btn danger" onClick={navigateToMyApp}>
                 <UserIcon />
                 My Profile
