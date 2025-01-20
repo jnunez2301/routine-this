@@ -27,10 +27,12 @@ if (!PORT) {
   throw new Error("PORT has to be assigned as a environment variable");
 }
 app.use(express.json());
-app.use(cors(/* {
-  origin: FRONTEND_URL
-} */
-))
+
+app.use(cors({
+  origin: FRONTEND_URL,
+  credentials: true, 
+}));
+
 app.use(morgan(":method :url :status :date"))
 
 app.get('/', (req, res) => {

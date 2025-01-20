@@ -69,8 +69,12 @@ authRouter.post("/login", async (req, res, next) => {
       return;
     }
     const token = jwt.sign({ username }, JWT_SECRET_KEY, { expiresIn: "3h" });
+    const userInfo = {
+      username: bdUser.username,
+      createdAt: bdUser.createdAt,
+    }
     res.status = 200;
-    res.json({ ...apiResponse(true, "Logged in successfully"), token });
+    res.json({ ...apiResponse(true, "Logged in successfully", userInfo), token });
   } catch (error) {
     console.error(error);
   }
