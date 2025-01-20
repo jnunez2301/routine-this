@@ -3,10 +3,14 @@ import "./home.styles.css";
 import { useNavigate } from "@tanstack/react-router";
 import UserIcon from "../components/icons/UserIcon";
 import DumbbellIcon from "../components/icons/DumbbellIcon";
+import { Button } from "../components/core/Button";
+import { useSession } from "../context/auth/context";
 
 const Home = () => {
-  const [isLoading, setIsLoading] = useState<boolean>(true);
+  const { session, clearSession } = useSession();
   const navigate = useNavigate();
+  // Loader made to provide animations at home path
+  const [isLoading, setIsLoading] = useState<boolean>(true);
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
@@ -27,7 +31,11 @@ const Home = () => {
       to: "/auth",
     });
   }
-
+  function handleLogOut(){
+    if(window.confirm("Are you sure you want to exit?")){
+      clearSession();
+    }
+  }
   return (
     <section className="home">
       <div
@@ -37,10 +45,10 @@ const Home = () => {
         }}
       >
         <header className="sub-title">
-          <div className="app-title-routine">
+          <div className="app-title-routine text-5xl font-bold">
             <h2>Routine </h2>
           </div>
-          <div className="app-subtitle">
+          <div className="app-subtitle text-[12px] font-semibold">
             <h2>This</h2>
             <div className="line"></div>
           </div>
@@ -54,21 +62,27 @@ const Home = () => {
         >
           <p>Keep it simple or spice it a little</p>
           <div className="get-started-btn-container">
-            <button className="btn" onClick={navigateToPublicRoutines}>
+            <Button $variant="primary" onClick={navigateToPublicRoutines}>
               <DumbbellIcon />
               Routines
-            </button>
+            </Button>
             {/* TODO: Change this conditional */}
-            {false ? (
-              <button className="btn danger" onClick={navigateToMyApp}>
-                <UserIcon />
-                My Profile
-              </button>
+            {session ? (
+              <div className="flex items-center gap-3">
+                <Button
+                  $variant="danger"
+                  /* className="btn danger" */ onClick={navigateToMyApp}
+                >
+                  <UserIcon />
+                  My Profile
+                </Button>
+                <Button $variant="outlined" onClick={handleLogOut}>Logout</Button>
+              </div>
             ) : (
-              <button className="btn secondary" onClick={handleNavigateToAuth}>
+              <Button $variant="secondary" onClick={handleNavigateToAuth}>
                 <UserIcon />
                 Authenticate
-              </button>
+              </Button>
             )}
           </div>
         </div>

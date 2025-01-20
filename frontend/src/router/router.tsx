@@ -1,8 +1,10 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 import {
   createRouter,
   createRootRoute,
   Outlet,
   createRoute,
+  useLocation,
 } from "@tanstack/react-router";
 import Home from "../pages/Home";
 import Authenticate from "../pages/auth/Authenticate";
@@ -11,33 +13,40 @@ import Login from "../pages/auth/Login";
 import { App } from "../pages/app/App";
 import { Routines } from "../pages/routines/Routines";
 import { Exercises } from "../pages/exercises/Exercises";
-import Navbar from "../components/Navbar";
+import useApi from "../hooks/useApi";
+import { useSession } from "../context/auth/context";
+import { UserSession } from "../model/User";
+import { useQuery } from "@tanstack/react-query";
 
 const rootRoute = createRootRoute({
   component: () => {
-    // const dispatch = useDispatch<AppDispatch>();
-    /* useQuery({
-      queryKey: ['user-profile'],
-      queryFn: async() => {
-        const response = await fetch(`${apiUrl}/auth/profile`, {
-          headers: {
-            'Authorization' : `Bearer ${localStorage.getItem(TOKEN_KEY)}`,
-          }
-        })
-        const apiResponse: ApiResponse = await response.json();
-        // @ts-expect-error: Username does exist in this context
-        const username = apiResponse.data.username;
-        dispatch(profile({username, isLoggedIn: apiResponse.success}))
-        return apiResponse.data;
-      }
-    }) */
+    const api = useApi();
+    const location = useLocation();
+    const { setSession } = useSession();
+    useQuery({
+      queryKey: ["user-session", location.pathname],
+      queryFn: () => {
+        api
+          .get("auth/profile")
+          .then((response) => {
+            if (response.success) {
+              setSession(response.data as unknown as UserSession);
+            }
+          })
+          .catch(() => {
+            if (location.pathname !== "/") {
+              alert("Server error, try checking this site later");
+            }
+          });
+      },
+      enabled: !location.pathname.includes("auth"),
+    });
     return (
       <>
-        <Navbar  />
         <Outlet />
       </>
     );
-  }
+  },
 });
 // Add Routes here
 const homeRoute = createRoute({
@@ -69,33 +78,30 @@ const routinesRoute = createRoute({
 });
 const exercisesRoute = createRoute({
   getParentRoute: () => rootRoute,
-  path: '/exercises',
-  component: () => <Exercises />
-})
-const myApp =  createRoute({
+  path: "/exercises",
+  component: () => <Exercises />,
+});
+const myApp = createRoute({
   getParentRoute: () => rootRoute,
-  path: '/app',
-  component:  () => <App />
-})
+  path: "/app",
+  component: () => <App />,
+});
 const myRoutines = createRoute({
   getParentRoute: () => myApp,
-  path: '/',
-  component: () => <p>My routines</p>
-})
+  path: "/",
+  component: () => <p>My routines</p>,
+});
 const myExercises = createRoute({
   getParentRoute: () => myApp,
-  path: '/my-exercises',
-  component: () => <p>My exercises</p>
-})
+  path: "/my-exercises",
+  component: () => <p>My exercises</p>,
+});
 const routeTree = rootRoute.addChildren([
   homeRoute,
   authRoute.addChildren([loginRoute, registerRoute]),
   routinesRoute,
   exercisesRoute,
-  myApp.addChildren([
-    myRoutines,
-    myExercises
-  ])
+  myApp.addChildren([myRoutines, myExercises]),
 ]);
 
 const router = createRouter({ routeTree });

@@ -4,3 +4,6 @@ export interface IUser {
   password: string;
   secretAnswer: string;
 }
+export interface UserSession{
+  username: string,
+}
