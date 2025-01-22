@@ -5,6 +5,7 @@ import router from "./router/router";
 import "./index.css";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { SessionProvider } from "./context/auth/AuthContext";
+import { Toaster } from "./context/toast/ToastContext";
 
 const queryClient = new QueryClient();
 
@@ -12,7 +13,9 @@ createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <SessionProvider>
       <QueryClientProvider client={queryClient}>
-        <RouterProvider router={router} />
+        <Toaster>
+          <RouterProvider router={router} />
+        </Toaster>
       </QueryClientProvider>
     </SessionProvider>
   </StrictMode>

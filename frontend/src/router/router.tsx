@@ -15,6 +15,7 @@ import useApi from "../hooks/useApi";
 import { useSession } from "../context/auth/context";
 import { UserSession } from "../model/User";
 import { useQuery } from "@tanstack/react-query";
+import Toast from "../components/core/Toast";
 
 const rootRoute = createRootRoute({
   component: () => {
@@ -34,6 +35,7 @@ const rootRoute = createRootRoute({
     });
     return (
       <>
+        <Toast />
         <Outlet />
       </>
     );
