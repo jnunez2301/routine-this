@@ -78,7 +78,7 @@ authRouter.post("/login", async (req, res, next) => {
       createdAt: bdUser.createdAt,
     }
     res.status = 200;
-    res.json({ ...apiResponse(true, "Logged in successfully", userInfo), token });
+    res.json({ ...apiResponse(true, `Welcome back ${userInfo.username}`, userInfo), token });
   } catch (error) {
     console.error(error);
   }
