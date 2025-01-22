@@ -11,27 +11,32 @@ const buttonBaseStyles = css`
   align-items: center;
   justify-content: center;
   gap: 0.2rem;
+
+  &:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
 `;
 
 const variantStyles = {
   primary: css`
     background-color: var(--palette-500);
     color: var(--palette-50);
-    &:hover {
+    &:hover:not(:disabled) {
       background-color: var(--palette-600);
     }
   `,
   secondary: css`
     background-color: var(--palette-200);
     color: var(--palette-700);
-    &:hover {
+    &:hover:not(:disabled) {
       background-color: var(--palette-400);
     }
   `,
   danger: css`
     background-color: var(--palette-800);
     color: var(--palette-50);
-    &:hover {
+    &:hover:not(:disabled) {
       background-color: var(--palette-700);
     }
   `,
@@ -39,7 +44,7 @@ const variantStyles = {
     background-color: transparent;
     color: var(--palette-950);
     outline: 1px solid var(--palette-200);
-    &:hover {
+    &:hover:not(:disabled) {
       background-color: var(--palette-50);
       outline: 1px solid var(--palette-600);
     }
@@ -47,14 +52,23 @@ const variantStyles = {
   transparent: css`
     background-color: transparent;
     color: var(--palette-950);
-    &:hover {
+    &:hover:not(:disabled) {
       background-color: var(--palette-50);
       outline: 1px solid var(--palette-600);
     }
   `,
 };
 
-export const Button = styled.button<{ $variant: "primary" | "secondary" | "danger" | "outlined" | "transparent" }>`
+export const Button = styled.button<{
+  $variant: "primary" | "secondary" | "danger" | "outlined" | "transparent";
+  disabled?: boolean;
+}>`
   ${buttonBaseStyles}
   ${({ $variant }) => variantStyles[$variant]}
+  ${({ disabled }) =>
+    disabled &&
+    css`
+      opacity: 0.6;
+      cursor: not-allowed;
+    `}
 `;

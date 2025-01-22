@@ -11,8 +11,6 @@ import Authenticate from "../pages/auth/Authenticate";
 import Register from "../pages/auth/Register";
 import Login from "../pages/auth/Login";
 import { App } from "../pages/app/App";
-import { Routines } from "../pages/routines/Routines";
-import { Exercises } from "../pages/exercises/Exercises";
 import useApi from "../hooks/useApi";
 import { useSession } from "../context/auth/context";
 import { UserSession } from "../model/User";
@@ -26,18 +24,11 @@ const rootRoute = createRootRoute({
     useQuery({
       queryKey: ["user-session", location.pathname],
       queryFn: () => {
-        api
-          .get("auth/profile")
-          .then((response) => {
-            if (response.success) {
-              setSession(response.data as unknown as UserSession);
-            }
-          })
-          .catch(() => {
-            if (location.pathname !== "/") {
-              alert("Server error, try checking this site later");
-            }
-          });
+        api.get("auth/profile").then((response) => {
+          if (response.success) {
+            setSession(response.data as unknown as UserSession);
+          }
+        });
       },
       enabled: !location.pathname.includes("auth"),
     });
@@ -71,16 +62,6 @@ const registerRoute = createRoute({
   component: () => <Register />,
 });
 
-const routinesRoute = createRoute({
-  getParentRoute: () => rootRoute,
-  path: "/routines",
-  component: () => <Routines />,
-});
-const exercisesRoute = createRoute({
-  getParentRoute: () => rootRoute,
-  path: "/exercises",
-  component: () => <Exercises />,
-});
 const myApp = createRoute({
   getParentRoute: () => rootRoute,
   path: "/app",
@@ -99,8 +80,6 @@ const myExercises = createRoute({
 const routeTree = rootRoute.addChildren([
   homeRoute,
   authRoute.addChildren([loginRoute, registerRoute]),
-  routinesRoute,
-  exercisesRoute,
   myApp.addChildren([myRoutines, myExercises]),
 ]);
 

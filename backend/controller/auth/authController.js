@@ -10,11 +10,15 @@ const authRouter = express.Router();
 
 authRouter.post("/register", async (req, res, next) => {
   try {
-    const { username, password, secretAnswer } = req.body;
-    if (isAFieldMissing([username, password, secretAnswer])) {
+    const { username, password, confirmPassword, secretAnswer } = req.body;
+    if (isAFieldMissing([username, password, confirmPassword, secretAnswer])) {
       res.status = 400;
       res.json(jsonMalformed);
       return;
+    }
+    if(password !== confirmPassword){
+      res.status = 400;
+      res.json(apiResponse(false, "Please make sure you wrote right your password"))
     }
     const bdUser = await userModel.findOne({ username: username });
     if (bdUser) {
@@ -80,5 +84,17 @@ authRouter.post("/login", async (req, res, next) => {
   }
   next();
 });
+
+authRouter.get("/check/:username", async (req, res) => {
+  const { username } = req.params;
+  const bdUser = await userModel.findOne({ username: username });
+  if(bdUser){
+    res.status = 409 // Conflict
+    res.json(apiResponse(false, "Username is already taken please try to use another username"))
+    return;
+  }
+  res.status = 200;
+  res.json(apiResponse(true, "Everything fine!"))
+})
 
 module.exports = authRouter;

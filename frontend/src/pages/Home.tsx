@@ -66,7 +66,6 @@ const Home = () => {
               <DumbbellIcon />
               Routines
             </Button>
-            {/* TODO: Change this conditional */}
             {session ? (
               <div className="flex items-center gap-3">
                 <Button

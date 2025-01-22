@@ -3,13 +3,14 @@ import { StatusCodes } from "http-status-codes";
 import { useSession } from "../context/auth/context";
 import { apiUrl } from "../environment";
 import { ApiResponse } from "../model/ApiResponse";
-import { useNavigate } from "@tanstack/react-router";
+import { useLocation, useNavigate } from "@tanstack/react-router";
 
 export const sessionTokenName = "session-2001";
 
 const useApi = () => {
   const { clearSession } = useSession();
   const navigate = useNavigate();
+  const location = useLocation();
   const jwtToken = localStorage.getItem(sessionTokenName);
   function checkForbidden(response: Response) {
     if (response.status === StatusCodes.FORBIDDEN) {
@@ -17,8 +18,11 @@ const useApi = () => {
         return;
       }
       clearSession();
-      window.alert("You are not allowed to see this content")
+      if(location.pathname === "" || location.pathname ==="/"){
+        return;
+      }
       navigate({to: '/'})
+      window.alert("You are not allowed to see this content")
       return;
     } else if(response.status === StatusCodes.TOO_MANY_REQUESTS){
       alert("Too many requests")

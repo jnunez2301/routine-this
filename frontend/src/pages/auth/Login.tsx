@@ -6,7 +6,7 @@ import { Link, useNavigate } from "@tanstack/react-router";
 import { useSession } from "../../context/auth/context";
 import { UserSession } from "../../model/User";
 
-interface LoginRequest {
+type LoginRequest = {
   username: string;
   password: string;
 }
@@ -40,14 +40,18 @@ const Login = () => {
         <TextInput
           type="text"
           id="username"
-          placeholder="username"
+          minLength={1}
+          maxLength={255}
+          placeholder="Your username"
           {...register("username")}
         />
         <label htmlFor="password">Password</label>
         <TextInput
           type="password"
           id="password"
-          placeholder="password"
+          minLength={1}
+          maxLength={255}
+          placeholder="Your password"
           {...register("password")}
         />
         <div>
