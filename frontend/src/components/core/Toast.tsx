@@ -52,7 +52,7 @@ const Toast = () => {
   }
   useEffect(() => {
     if (toastMessage) {
-      const endTime = toastMessage.time ? toastMessage.time : 2000;
+      const endTime = toastMessage.time ? toastMessage.time : 3000;
       const timer = setTimeout(() => {
         clearMessage();
       }, endTime);

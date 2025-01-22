@@ -23,7 +23,7 @@ const Home = () => {
   }
   function navigateToPublicRoutines() {
     navigate({
-      to: "/routines",
+      to: "/app/public/routines",
     });
   }
   function handleNavigateToAuth() {
@@ -64,7 +64,7 @@ const Home = () => {
           <div className="get-started-btn-container">
             <Button $variant="primary" onClick={navigateToPublicRoutines}>
               <DumbbellIcon />
-              Routines
+              All Routines
             </Button>
             {session ? (
               <div className="flex items-center gap-3">
@@ -73,7 +73,7 @@ const Home = () => {
                   /* className="btn danger" */ onClick={navigateToMyApp}
                 >
                   <UserIcon />
-                  My Profile
+                  My Routines
                 </Button>
                 <Button $variant="outlined" onClick={handleLogOut}>Logout</Button>
               </div>

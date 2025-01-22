@@ -31,7 +31,7 @@ const rootRoute = createRootRoute({
           }
         });
       },
-      enabled: !location.pathname.includes("auth"),
+      enabled: !(location.pathname.includes("auth") || location.pathname.includes("public")),
     });
     return (
       <>
@@ -69,6 +69,11 @@ const myApp = createRoute({
   path: "/app",
   component: () => <App />,
 });
+const publicRoutines = createRoute({
+  getParentRoute: () => myApp,
+  path: '/public/routines',
+  component: () => <p>Public Routines</p>
+})
 const myRoutines = createRoute({
   getParentRoute: () => myApp,
   path: "/",
@@ -82,7 +87,7 @@ const myExercises = createRoute({
 const routeTree = rootRoute.addChildren([
   homeRoute,
   authRoute.addChildren([loginRoute, registerRoute]),
-  myApp.addChildren([myRoutines, myExercises]),
+  myApp.addChildren([myRoutines, myExercises, publicRoutines]),
 ]);
 
 const router = createRouter({ routeTree });
