@@ -32,6 +32,7 @@ const rootRoute = createRootRoute({
         });
       },
       enabled: !(location.pathname.includes("auth") || location.pathname.includes("public")),
+      staleTime: Infinity
     });
     return (
       <>

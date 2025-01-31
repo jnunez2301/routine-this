@@ -7,7 +7,7 @@ const morgan = require('morgan');
 const exerciseRouter = require('./controller/exercise/exerciseController');
 const routineRouter = require('./controller/routine/routineController');
 const rateLimit = require('express-rate-limit');
-
+const initExercises = require('./util/initExercises')
 const app = express();
 const limiter = rateLimit({
 	windowMs: 2 * 60 * 1000, // [t] minutes
@@ -43,7 +43,8 @@ app.get('/', (req, res) => {
 
 
 mongoConnect();
-
+//Enable on first run if the database is empty
+//initExercises();
 // Routes
 app.use("/api/auth", authRouter);
 // Read is allowed for anyone so they can take a quick look of any exercise and how it's done

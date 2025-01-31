@@ -20,11 +20,7 @@ const ToastContainer = styled.div`
   box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.2);
   animation: ${fromBottomToTop} .2s ease-in-out;
 `;
-// TODO: Create a damn toaster!!!
 const Toast = () => {
-  // 1. Create in DOM a positioned absolute div
-  // 2. Set a timer
-  // 3. Once timer ends the item is removed from the dom
   const { clearMessage, toastMessage } = useToast();
   function getMessageSeverityColor(str: "success" | "info" | "danger") {
     switch (str) {

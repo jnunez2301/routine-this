@@ -1,0 +1,4082 @@
+[
+  {
+    "name": "Incline Dumbbell Bench Press",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "CHEST",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Dumbbell Bench Press",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "CHEST",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Dumbbell Pullover",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "CHEST",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Dumbbell Flys",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "CHEST",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Pec Deck",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "CHEST",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Incline Bench Press",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "CHEST",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Close Grip Dumbbell Press (AKA Crush Press)",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "CHEST",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Barbell Bench Press",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "CHEST",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Hammer Strength Bench Press",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "CHEST",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Standing Cable Fly",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "CHEST",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Reverse Grip Dumbbell Bench Press",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "CHEST",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Incline Dumbbell Flys",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "CHEST",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Chest Dip",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "CHEST",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Cable Iron Cross",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "CHEST",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Standing Low to High Cable Fly",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "CHEST",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Hammer Strength Machine Incline Bench Press",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "CHEST",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Cable Crossovers (Upper Chest)",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "CHEST",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Push Up",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "CHEST",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Decline Bench Press",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "CHEST",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Decline Dumbbell Bench Press",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "CHEST",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "One Arm Dumbbell Fly",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "CHEST",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Smith Machine Incline Bench Press",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "CHEST",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Standing High to Low Cable Fly",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "CHEST",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Cable Chest Press",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "CHEST",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Decline Push Up (Feet on Bench)",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "CHEST",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Barbell Pullover",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "CHEST",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Stretch Push Up (On Risers)",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "CHEST",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Paused Push Up",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "CHEST",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Smith Machine Bench Press",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "CHEST",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Incline Dumbbell Twist Fly",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "CHEST",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Feet on Wall Push Up",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "CHEST",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Dumbbell Twist Press",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "CHEST",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Push Up (Feet on Swiss Ball)",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "CHEST",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Reverse Grip Bench Press",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "CHEST",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Guillotine Press",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "CHEST",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Weighted Chest Dip",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "CHEST",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Decline Dumbbell Flys",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "CHEST",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Plyometric Clapping Push Up",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "CHEST",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Plyometric Push Up",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "CHEST",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Incline Cable Flys",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "CHEST",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Standing Hammer Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Standing Dumbbell Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Incline Dumbbell Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Standing Barbell Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Cross Body Hammer Curl (Pinwheel Curls)",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Zottman Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "EZ Bar Preacher Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Cable Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Concentration Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Cable Curl (Rope Extension)",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Barbell Preacher Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Alternating Standing Dumbbell Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Alternating Seated Dumbbell Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Machine Bicep Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Seated Dumbbell Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Dumbbell Hammer Preacher Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "EZ Bar Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Spider Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Standing Dumbbell Reverse Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Dumbbell Preacher Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Standing High Pulley Cable Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Cable Preacher Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Seated Barbell Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "One-Arm Seated Dumbbell Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Seated Hammer Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Hammer Bar Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Alternating Incline Dumbbell Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Wide Grip Standing Barbell Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Smith Machine Bicep Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Alternating Standing Hammer Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Barbell Concentration Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Incline Bench Dumbbell Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Lying Incline Bench Barbell Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Cable Preacher Curl (Rope Extension)",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "One-Arm Standing Hammer Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Standing Dumbbell Drag Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Lying High Pulley Cable Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "One-Arm Dumbbell Preacher Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Seated Zottman Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Squatting Cable Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Straight Bar Tricep Extension",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Seated Dumbbell Tricep Extension",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Lying Dumbbell Extension",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Dumbbell Floor Press",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Tricep Dip",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Rope Tricep Extension",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Close Grip Bench Press",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "EZ Bar Skullcrusher",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Two Arm Standing Dumbbell Extension",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Lying Barbell Tricep Extension (Skull Crusher)",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Bent Over Dumbbell Tricep Kickback",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "One-Arm Standing Dumbbell Extension",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "French Press",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "45 Degree Lying Tricep Extension",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Dumbbell Tricep Kickback",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Reverse Grip Cable Tricep Extension",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "One-Arm Seated Dumbbell Extension",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "High Pulley Overhead Tricep Extension (Rope Extension)",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Weighted Tricep Dips",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Bench Dip",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Seated French Press",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Standing Low Pulley Overhead Tricep Extension (Rope Extension)",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "One-Arm Cable Tricep Extension",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Standing Overhead EZ Bar Tricep Extension",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Incline Skull Crusher",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Close Grip Push Up",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "One Arm Kettlebell Floor Press",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Band Assisted Dip",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "One Arm Bent Over Dumbbell Tricep Kickback",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Eccentric Only Dip",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Machine Tricep Extension",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Reverse One-Arm Cable Tricep Extension",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Seated Bent Over Tricep Dumbbell Kickback",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Standing Low Pulley Overhead Tricep Extension",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Seated Low Pulley Overhead Tricep Extension",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "EZ Bar Incline Skullcrusher",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Incline Dumbbell Tricep Extension",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "High Pulley Overhead Tricep Extension",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Lying Pronated Dumbbell Tricep Extension",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Single Bench Dip",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "One Arm Dumbbell Row",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Bent Over Dumbbell Row",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Bent Over Row",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Seated Cable Row",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Neutral Grip Chest Supported Dumbbell Row",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Reverse Grip Bent-Over Dumbbell Row",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Tripod Dumbbell Row",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Machine Row",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "T-Bar Row",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Feet Elevated Inverted Row",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Reverse Grip Bent Over Row",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Smith Machine Bent-Over Row",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Incline Bench Two Arm Dumbbell Row",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Machine T-Bar Row",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Seated Row (Rope Extension)",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Inverted Row",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Meadows Row",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Bent Over Kettlebell Row",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Pendlay Row",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "One-Arm Bent-Over Row",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "World's Greatest Stretch",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Renegade Row",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Concept 2 Rowing Machine",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Reverse Grip Bent-Over Row (EZ Bar)",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Thoracic Extension on Foam Roller",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Inverted Rope Row",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Seated High Cable Row",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Bench T-Spine Mobilization",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Reverse Grip Incline Bench Two-Arm Dumbbell Row",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Chest Supported Dumbbell Row with Isohold",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "High Pull Sled Drag",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Reverse Grip Smith Machine Bent-Over Row",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Deadstop Rack Row",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Incline Bench Cable Row",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Smith Machine One-Arm Row",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Rope Crossover Seated Row",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Reverse Lunge Sled Row",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Trap Bar Row",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "One-Arm Seated Cable Row",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Weight Vest Weighted Inverted Row",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Lat Pull Down",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Close Grip Lat Pull Down",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Wide Grip Pull Up",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Straight Arm Lat Pull Down",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Wide Grip Lat Pull Down",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Chin Up",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Reverse Grip Lat Pull Down (Underhand)",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Pull Up",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "V-Bar Pull Down",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Eccentric Only Pull Up",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Rope Straight Arm Pull Down",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Weighted Pull Up",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Behind Neck Lat Pull Down",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Thibaudeau Kayak Row",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Close Grip Pull Up",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Shotgun Row",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Underhand Close Grip Lateral Pulldown",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Rack Lat Stretch",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "V-Bar Pull Up",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Weighted Chin Up",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Band Assisted Chin Up (From Foot)",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Chin Up With Leg Raise",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Lateral Pulldown (Rope Extension)",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "L-Sit Pull Up",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Skin the Cat",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Standing Overhead Medicine Ball Slam",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Standing Overhead Medicine Ball Throw",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Eccentric Only Chin Up",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Rope Pull Up",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Single Pause Pull Up",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Overhead Medicine Ball Figure 8 Slam",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Grip Ball Pull Ups",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Around the Bar Chin Ups",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Gironda Sternum Chin Up",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Pull Up with Leg Raise",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Rope Climb",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "L-Sit Chin Up",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Lat Foam Rolling",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Arms Only Rope Climb",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Band Assisted Chin Up (From Knee)",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Dumbbell Stiff Leg Deadlift",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Stiff Leg Deadlift",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Conventional Deadlift",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Leg Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Romanian Deadlift (AKA RDL)",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Dumbbell Hamstring Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Seated Leg Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Sumo Deadlift",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Trap Bar Rack Pull",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Bodyweight Single Leg Deadlift",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Kettlebell Swing",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Trap Bar Deadlift",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Standing Cable Hamstring Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Landmine RDL",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Single Leg One Dumbbell Deadlift",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Kettlebell Romanian Deadlift",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Glute Ham Raise (GHR)",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Double Kettlebell Suitcase Deadlift",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Reverse Hack Squat",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Single Leg Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Nordic Hamstring Curl (Bodyweight)",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Kettlebell Sumo Deadlift (1 KB)",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Band Assisted Nordic Hamstring Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Trap Bar Romanian Deadlift",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Double Kettlebell Swing",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Stiff Leg Deadlift (On Bench)",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Paused Sumo Deadlift",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Plate Resisted Glute Ham Raise",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Jefferson Deadlift",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Reverse Band Deadlift",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "1 Kettlebell Single Leg Deadlift",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Snatch Grip Deficit Deadlift",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Valslide Leg Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Sumo Block Pull Deadlift",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "1 Kettlebell Suitcase Deadlift",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "2 to 1 Exercise Ball Hamstring Curl (SHELC)",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Exercise Ball Leg Curl (SHELC)",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Hamstring Tiger Tail",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Straight Leg Deadlift",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "American Deadlift",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Hyperextension",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "GLUTES",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Barbell Hip Thrust",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "GLUTES",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Standing Glute Kickback",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "GLUTES",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Good Mornings",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "GLUTES",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Glute Kick Back",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "GLUTES",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Wide Stance Smith Machine Squat",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "GLUTES",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Bodyweight Glute Bridge",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "GLUTES",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Good Mornings Off Pins",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "GLUTES",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Reverse Hyperextension",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "GLUTES",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Weighted Hyperextension",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "GLUTES",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Banded Glute Bridge",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "GLUTES",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Single Leg Glute Bridge",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "GLUTES",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Single Leg Hip Thrust with Dumbbell",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "GLUTES",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Barbell Glute Bridge",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "GLUTES",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Bodyweight Hip Thrust",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "GLUTES",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Banded Good Morning",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "GLUTES",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Hip Thruster with Mini Band",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "GLUTES",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "GHD Back Extension",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "GLUTES",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Glute Lacrosse Ball",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "GLUTES",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Lateral Band Walk",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "GLUTES",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "90/90 Piriformis Stretch",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "GLUTES",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Banded Multi Directional Toe Touch",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "GLUTES",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "X-Band Walk",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "GLUTES",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Standing External Rotation",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "GLUTES",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Single Leg Good Morning",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "GLUTES",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Diagonal Band Walk",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "GLUTES",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Seated Good Mornings",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "GLUTES",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Side Lying Clam with Band",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "GLUTES",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Sled Pull Through",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "GLUTES",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Side Lying Clam",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "GLUTES",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Knee to Chest Single Leg Glute Bridge",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "GLUTES",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Hip Extensions",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "GLUTES",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Curtsy Lunge (AKA Drop Lunge)",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "GLUTES",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Marching Glute Bridge",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "GLUTES",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Dynamic Pigeon",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "GLUTES",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Figure 4 Glute Stretch",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "GLUTES",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Glute Foam Rolling",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "GLUTES",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "GHD Back Extension Iso Hold",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "GLUTES",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Supine Hip Internal Rotation",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "GLUTES",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Single Leg Hip Thrust",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "GLUTES",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Weighted Crunch",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "ABS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Cable Crunch",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "ABS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Dumbbell Side Bends",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "ABS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Lying Floor Leg Raise",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "ABS",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Plank",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "ABS",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Barbell Abdominal Rollouts",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "ABS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Hanging Leg Raise",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "ABS",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Abdominal Air Bike (AKA Bicycle)",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "ABS",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Ab Crunch",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "ABS",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Decline Bench Sit Up",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "ABS",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Sit Up",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "ABS",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Russian Twist",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "ABS",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Side Plank",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "ABS",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Exercise Ball Crunch",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "ABS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Seated Barbell Twist",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "ABS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Rotating Mountain Climber",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "ABS",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Hanging Knee Raise",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "ABS",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Hanging Knee Raise With Twist",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "ABS",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Pallof Press",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "ABS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Alternate Straight Leg Lower",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "ABS",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Lying Leg Raise With Hip Thrust",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "ABS",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Pallof Press with Rotation",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "ABS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Lying Floor Knee Tuck",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "ABS",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Standing Stomach Vacuum",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "ABS",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Decline Bench Abdominal Reach",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "ABS",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Decline Bench Leg Raise",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "ABS",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Plank to Hip Raise",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "ABS",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Lying Alternate Floor Leg Raise",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "ABS",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Dead Bug",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "ABS",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Twisting Cable Crunch",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "ABS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Turkish Get Up",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "ABS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Weighted Hanging Knee Raise",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "ABS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "3 Month Position Kettlebell Pullover",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "ABS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Side Crunch With Leg Lift",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "ABS",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Hands Overhead Ab Crunch",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "ABS",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Jackknife (On Bench)",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "ABS",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Seated Knee Tucks",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "ABS",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Lying Leg Raise (On Bench)",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "ABS",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Lying Alternating Knee Raise",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "ABS",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Wide Stance Cable Anti-Rotation",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "ABS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Seated Barbell Wrist Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "FOREARMS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Behind-The-Back Barbell Wrist Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "FOREARMS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Reverse Grip Barbell Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "FOREARMS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Reverse Grip Barbell Curl (EZ Bar)",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "FOREARMS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Reverse Grip Cable Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "FOREARMS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Dumbbell Farmers Carry",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "FOREARMS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Plate Pinch Carry",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "FOREARMS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Seated Neutral Grip Dumbbell Wrist Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "FOREARMS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Dumbbell Wrist Curl (Over Bench)",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "FOREARMS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Fat Gripz Dumbbell Farmers Carry",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "FOREARMS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Seated Reverse Grip Dumbbell Wrist Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "FOREARMS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Reverse Grip Barbell Wrist Curl (Over Bench)",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "FOREARMS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Behind-The-Back Cable Wrist Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "FOREARMS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Reverse Grip Dumbbell Preacher Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "FOREARMS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Kettlebell Single Arm Racked Carry",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "FOREARMS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Neutral Grip Dumbbell Wrist Curl (Over Bench)",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "FOREARMS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Barbell Suitcase Carry",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "FOREARMS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Barbell Wrist Curl (Over Bench)",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "FOREARMS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Trap Bar Overhead Carry",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "FOREARMS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Wrist Rollers",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "FOREARMS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Zercher Carry",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "FOREARMS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "One-Arm Dumbbell Reverse Grip Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "FOREARMS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Reverse Grip Concentration Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "FOREARMS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Dumbbell Suitcase Carry",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "FOREARMS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Reverse Grip Preacher Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "FOREARMS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Forearm Tiger Tail",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "FOREARMS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "One-Arm Dumbbell Wrist Curl (Over Bench)",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "FOREARMS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Dumbbell High Low Carry",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "FOREARMS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Reverse Grip Barbell Wrist Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "FOREARMS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Forearm Extensors Lacrosse Ball",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "FOREARMS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Reverse Grip Dumbbell Wrist Curl (Over Bench)",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "FOREARMS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "One-Arm Neutral Grip Dumbbell Wrist Curl (Over Bench)",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "FOREARMS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Dumbbell Overhead Carry",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "FOREARMS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Alternating Dumbbell Reverse Grip Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "FOREARMS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Forearm Flexors Lacrosse Ball",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "FOREARMS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "One Arm Reverse Dumbbell Wrist Curl Over Bench",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "FOREARMS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "One-Arm Reverse Grip Dumbbell Preacher Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "FOREARMS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Kettlebell Goblet Carry",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "FOREARMS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Standing Smith Machine Wrist Curl (behind back)",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "FOREARMS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Reverse Grip Cable Preacher Curl",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "FOREARMS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Dumbbell Goblet Squat",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Dumbbell Squat",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Barbell Back Squat",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Dumbbell Lunge",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Leg Extension",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Leg Press",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Dumbbell Step Up",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Dumbbell Split Squat",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Machine Hack Squat",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Dumbbell Rear Lunge",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "One Leg Dumbbell Squat (AKA Dumbbell Bulgarian Split Squat)",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Frog Squat",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Dumbbell Walking Lunge",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Front Squat",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Plie Squat",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Bodyweight Walking Lunge",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Barbell Hack Squat",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "One Leg 45 Degree Leg Press",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Bodyweight Lunge",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Prisoner Squat Jump",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Bodyweight Squat Jump",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Smith Machine Lunge",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Barbell Lunge",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Smith Machine Squat",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Bodyweight Lateral Lunge",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Dumbbell Lateral Lunge",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Smith Machine Front Squat",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "1 KB Kettlebell Snatch",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Kettlebell Goblet Squat",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Prisoner Squat",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Single Leg Squat From Bench",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "1 Kettlebell Step Up",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Barbell Sumo Squat",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Single Leg Extension",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Barbell Walking Lunge",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Smith Machine Leg Press",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Front Foot Elevated Smith Machine Split Squat",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Zerchers Squat",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Front Foot Elevated Dumbbell Split Squat",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Kettlebell Walking Lunge",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "LEGS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Dumbbell Lateral Raise",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "SHOULDERS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Military Press (AKA Overhead Press)",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "SHOULDERS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Bent Over Dumbbell Reverse Fly",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "SHOULDERS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Standing Dumbbell Shoulder Press",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "SHOULDERS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Smith Machine Shoulder Press",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "SHOULDERS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Seated Arnold Press",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "SHOULDERS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Seated Dumbbell Press",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "SHOULDERS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Seated Bent Over Dumbbell Reverse Fly",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "SHOULDERS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Seated Barbell Shoulder Press",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "SHOULDERS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Cable Face Pull",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "SHOULDERS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Machine Reverse Fly",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "SHOULDERS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Seated Dumbbell Lateral Raise",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "SHOULDERS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Standing Cable Reverse Fly",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "SHOULDERS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Machine Shoulder Press",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "SHOULDERS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Standing Dumbbell Front Raise",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "SHOULDERS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Single Arm Cable Lateral Raise (Crossbody)",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "SHOULDERS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Cable Lateral Raise",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "SHOULDERS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Seated Behind the Neck Shoulder Press",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "SHOULDERS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Cable Upright Row",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "SHOULDERS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Machine Lateral Raise",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "SHOULDERS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "One-Arm Dumbbell Lateral Raise",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "SHOULDERS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Standing Arnold Press",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "SHOULDERS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Barbell Front Raise",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "SHOULDERS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Half Kneeling Landmine Press",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "SHOULDERS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Smith Machine Upright Row",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "SHOULDERS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Dumbbell Upright Row",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "SHOULDERS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Kettlebell Halo",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "SHOULDERS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Cable Front Raise (Bilateral)",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "SHOULDERS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Bent Over Low Pulley Rear Delt Fly",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "SHOULDERS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Bent Over Rear Delt Fly (Head on Bench)",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "SHOULDERS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Cable Face Pull with External Rotation",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "SHOULDERS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Lateral Raise Partials",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "SHOULDERS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Incline Rear Delt Fly",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "SHOULDERS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Weight Plate Front Raise",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "SHOULDERS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Band Pull Apart",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "SHOULDERS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Cable Internal Rotation",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "SHOULDERS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "One-Arm Seated Dumbbell Shoulder Press",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "SHOULDERS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Side Lying Rear Delt Fly",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "SHOULDERS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Push Press",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "SHOULDERS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Smith Machine Behind the Neck Shoulder Press",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "SHOULDERS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Barbell Upright Row",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Dumbbell Shrug",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Barbell Shrug",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Seated Dumbbell Shrug",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "One-Arm Dumbbell Upright Row",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Wide Grip Upright Row",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Smith Machine Shrug",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Tate Press",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Lying Cable Shrug",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Cable Row to Neck",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "High Pull",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Standing Calf Machine Shrug",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "2 KB Kettlebell Sumo Deadlift High Pull",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "T-Bar Machine Shrug",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Trap Bar Shrug",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Clean Shrug",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "1 KB Kettlebell Sumo Deadlift High Pull",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Cable Shrug",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Gittleson Shrug",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Snatch Grip High Pull",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Snatch Shrug",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Behind-The-Back Barbell Shrug",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Inverted Shrug",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Sumo High Pull",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Lying Cable Upright Row",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Machine Shrug",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Trap Lacrosse Ball",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Overhead Barbell Shrug",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Seated Cable Shrug",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Snatch Grip Barbell Shrug",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "BACK",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Straight Bar Tricep Extension",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Seated Dumbbell Tricep Extension",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Lying Dumbbell Extension",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Dumbbell Floor Press",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Tricep Dip",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Rope Tricep Extension",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Close Grip Bench Press",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "EZ Bar Skullcrusher",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Two Arm Standing Dumbbell Extension",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Lying Barbell Tricep Extension (Skull Crusher)",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Bent Over Dumbbell Tricep Kickback",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "One-Arm Standing Dumbbell Extension",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "French Press",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "45 Degree Lying Tricep Extension",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Dumbbell Tricep Kickback",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Reverse Grip Cable Tricep Extension",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "One-Arm Seated Dumbbell Extension",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "High Pulley Overhead Tricep Extension (Rope Extension)",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Weighted Tricep Dips",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Bench Dip",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Seated French Press",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Standing Low Pulley Overhead Tricep Extension (Rope Extension)",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "One-Arm Cable Tricep Extension",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Standing Overhead EZ Bar Tricep Extension",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Incline Skull Crusher",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Close Grip Push Up",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "One Arm Kettlebell Floor Press",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Band Assisted Dip",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "One Arm Bent Over Dumbbell Tricep Kickback",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Eccentric Only Dip",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "CALISTHENIC"
+  },
+  {
+    "name": "Machine Tricep Extension",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Reverse One-Arm Cable Tricep Extension",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Seated Bent Over Tricep Dumbbell Kickback",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Standing Low Pulley Overhead Tricep Extension",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Seated Low Pulley Overhead Tricep Extension",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "EZ Bar Incline Skullcrusher",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Incline Dumbbell Tricep Extension",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "High Pulley Overhead Tricep Extension",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Lying Pronated Dumbbell Tricep Extension",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "WEIGHT"
+  },
+  {
+    "name": "Single Bench Dip",
+    "description": "Description not availible yet",
+    "videoUrl": "",
+    "imgUrl": "",
+    "bodyPart": "TRICEPS",
+    "type": "CALISTHENIC"
+  }
+]
