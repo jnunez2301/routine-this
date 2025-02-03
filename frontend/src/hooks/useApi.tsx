@@ -8,6 +8,11 @@ import { useToast } from "../context/toast/context";
 
 export const sessionTokenName = "session-2001";
 
+type ApiOptions = {
+  avoidClear?: boolean, // User session wont be cleared if set and the path is forbidden,
+  hideToast?: boolean, // Toast will be hidden if set
+}
+
 const useApi = () => {
   const { clearSession } = useSession();
   const toast = useToast();
@@ -39,7 +44,7 @@ const useApi = () => {
     }
   }
 
-  async function get(endpoint: string): Promise<ApiResponse> {
+  async function get(endpoint: string, options: ApiOptions): Promise<ApiResponse> {
     try {
       const response = await fetch(`${apiUrl}/${endpoint}`, {
         credentials: "include",
@@ -47,16 +52,20 @@ const useApi = () => {
           Authorization: `Bearer ${jwtToken}`,
         },
       });
-      checkForbidden(response);
+      if(!options.avoidClear){
+        checkForbidden(response);
+      }
 
       const data = response.json();
 
       return data;
     } catch (error) {
-      toast.setMessage({
-        detail: "Internal server error, please try again later",
-        severity: "danger",
-      });
+      if(!options.hideToast){
+        toast.setMessage({
+          detail: "Internal server error, please try again later",
+          severity: "danger",
+        });
+      }
       throw new Error(String(error));
     }
   }

@@ -5,10 +5,12 @@ import UserIcon from "../components/icons/UserIcon";
 import DumbbellIcon from "../components/icons/DumbbellIcon";
 import { Button } from "../components/core/Button";
 import { useSession } from "../context/auth/context";
+import { useQueryClient } from "@tanstack/react-query";
 
 const Home = () => {
   const { session, clearSession } = useSession();
   const navigate = useNavigate();
+  const queryClient = useQueryClient();
   // Loader made to provide animations at home path
   const [isLoading, setIsLoading] = useState<boolean>(true);
   useEffect(() => {
@@ -16,14 +18,14 @@ const Home = () => {
       setIsLoading(false);
     }, 1000);
   }, []);
-  function navigateToMyApp() {
+  function navigateToSettings() {
     navigate({
-      to: "/app",
+      to: "/app/settings",
     });
   }
-  function navigateToPublicRoutines() {
+  function navigateToRoutines() {
     navigate({
-      to: "/app/public/routines",
+      to: "/app/routines",
     });
   }
   function handleNavigateToAuth() {
@@ -31,8 +33,10 @@ const Home = () => {
       to: "/auth",
     });
   }
-  function handleLogOut(){
-    if(window.confirm("Are you sure you want to exit?")){
+  function handleLogOut() {
+    if (window.confirm("Are you sure you want to exit?")) {
+      queryClient.cancelQueries({ queryKey: ["auth/profile"], exact: true });
+      queryClient.removeQueries({ queryKey: ["auth/profile"], exact: true });
       clearSession();
     }
   }
@@ -62,20 +66,22 @@ const Home = () => {
         >
           <p>Keep it simple or spice it a little</p>
           <div className="get-started-btn-container">
-            <Button $variant="primary" onClick={navigateToPublicRoutines}>
+            <Button $variant="primary" onClick={navigateToRoutines}>
               <DumbbellIcon />
-              All Routines
+              Routines
             </Button>
             {session ? (
               <div className="flex items-center gap-3">
                 <Button
                   $variant="danger"
-                  /* className="btn danger" */ onClick={navigateToMyApp}
+                  /* className="btn danger" */ onClick={navigateToSettings}
                 >
                   <UserIcon />
-                  My Routines
+                  Settings
                 </Button>
-                <Button $variant="outlined" onClick={handleLogOut}>Logout</Button>
+                <Button $variant="outlined" onClick={handleLogOut}>
+                  Logout
+                </Button>
               </div>
             ) : (
               <Button $variant="secondary" onClick={handleNavigateToAuth}>

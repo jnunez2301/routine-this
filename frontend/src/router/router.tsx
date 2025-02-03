@@ -16,6 +16,7 @@ import { useSession } from "../context/auth/context";
 import { UserSession } from "../model/User";
 import { useQuery } from "@tanstack/react-query";
 import Toast from "../components/core/Toast";
+import Routines from "../pages/app/routines/Routines";
 
 const rootRoute = createRootRoute({
   component: () => {
@@ -25,14 +26,14 @@ const rootRoute = createRootRoute({
     useQuery({
       queryKey: ["user-session", location.pathname],
       queryFn: () => {
-        api.get("auth/profile").then((response) => {
-          if (response.success) {
-            setSession(response.data as unknown as UserSession);
-          }
-        });
+        api
+          .get("auth/profile", { avoidClear: true, hideToast: true })
+          .then((response) => {
+            if (response.success) {
+              setSession(response.data as unknown as UserSession);
+            }
+          });
       },
-      enabled: !(location.pathname.includes("auth") || location.pathname.includes("public")),
-      staleTime: Infinity
     });
     return (
       <>
@@ -65,30 +66,30 @@ const registerRoute = createRoute({
   component: () => <Register />,
 });
 
-const myApp = createRoute({
+const app = createRoute({
   getParentRoute: () => rootRoute,
   path: "/app",
   component: () => <App />,
 });
-const publicRoutines = createRoute({
-  getParentRoute: () => myApp,
-  path: '/public/routines',
-  component: () => <p>Public Routines</p>
-})
-const myRoutines = createRoute({
-  getParentRoute: () => myApp,
-  path: "/",
-  component: () => <p>My routines</p>,
+const routines = createRoute({
+  getParentRoute: () => app,
+  path: "/routines",
+  component: () => <Routines />,
 });
-const myExercises = createRoute({
-  getParentRoute: () => myApp,
-  path: "/my-exercises",
+const settings = createRoute({
+  getParentRoute: () => app,
+  path: "/settings",
+  component: () => <p>Settings</p>,
+});
+const exercises = createRoute({
+  getParentRoute: () => app,
+  path: "/exercises",
   component: () => <p>My exercises</p>,
 });
 const routeTree = rootRoute.addChildren([
   homeRoute,
   authRoute.addChildren([loginRoute, registerRoute]),
-  myApp.addChildren([myRoutines, myExercises, publicRoutines]),
+  app.addChildren([exercises, routines, settings]),
 ]);
 
 const router = createRouter({ routeTree });

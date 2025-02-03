@@ -5,20 +5,24 @@ import useApi, { sessionTokenName } from "../../hooks/useApi";
 import { Link, useNavigate } from "@tanstack/react-router";
 import { useSession } from "../../context/auth/context";
 import { UserSession } from "../../model/User";
+import { useQueryClient } from "@tanstack/react-query";
 
 type LoginRequest = {
   username: string;
   password: string;
-}
+};
 
 const Login = () => {
   const { register, handleSubmit } = useForm<LoginRequest>();
   const session = useSession();
   const api = useApi();
   const navigate = useNavigate();
+  const queryClient = useQueryClient();
   const onSubmit: SubmitHandler<LoginRequest> = (data) => {
     api.post("auth/login", data).then((response) => {
       if (response.success && response.token) {
+        queryClient.cancelQueries({ queryKey: ["auth/profile"], exact: true });
+        queryClient.removeQueries({ queryKey: ["auth/profile"], exact: true });
         localStorage.setItem(sessionTokenName, response.token);
         session.setSession(response.data as unknown as UserSession);
         navigate({ to: "/" });
