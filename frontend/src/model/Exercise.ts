@@ -1,4 +1,5 @@
-export interface IExercise {
+export interface Exercise {
+  _id: string;
   name: string;
   description?: string; // Optional because it has a default value
   videoUrl?: string; // Optional because it has a default value

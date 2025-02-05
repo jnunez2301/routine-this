@@ -16,7 +16,9 @@ import { useSession } from "../context/auth/context";
 import { UserSession } from "../model/User";
 import { useQuery } from "@tanstack/react-query";
 import Toast from "../components/core/Toast";
-import Routines from "../pages/app/routines/Routines";
+import MyRoutines from "../pages/app/routines/myRoutines/MyRoutines";
+import PublicRoutines from "../pages/app/routines/publicRoutines/PublicRoutines";
+import Exercises from "../pages/app/exercises/Exercises";
 
 const rootRoute = createRootRoute({
   component: () => {
@@ -30,10 +32,13 @@ const rootRoute = createRootRoute({
           .get("auth/profile", { avoidClear: true, hideToast: true })
           .then((response) => {
             if (response.success) {
-              setSession(response.data as unknown as UserSession);
+              const data = response.data as unknown as UserSession;
+              setSession(data);
+              return data;
             }
           });
       },
+      staleTime: Infinity,
     });
     return (
       <>
@@ -74,7 +79,12 @@ const app = createRoute({
 const routines = createRoute({
   getParentRoute: () => app,
   path: "/routines",
-  component: () => <Routines />,
+  component: () => <PublicRoutines />,
+});
+const myRoutines = createRoute({
+  getParentRoute: () => app,
+  path: "/my-routines",
+  component: () => <MyRoutines />,
 });
 const settings = createRoute({
   getParentRoute: () => app,
@@ -84,12 +94,12 @@ const settings = createRoute({
 const exercises = createRoute({
   getParentRoute: () => app,
   path: "/exercises",
-  component: () => <p>My exercises</p>,
+  component: () => <Exercises />,
 });
 const routeTree = rootRoute.addChildren([
   homeRoute,
   authRoute.addChildren([loginRoute, registerRoute]),
-  app.addChildren([exercises, routines, settings]),
+  app.addChildren([exercises, routines, settings, myRoutines]),
 ]);
 
 const router = createRouter({ routeTree });

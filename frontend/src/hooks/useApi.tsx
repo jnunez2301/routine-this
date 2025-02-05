@@ -44,7 +44,7 @@ const useApi = () => {
     }
   }
 
-  async function get(endpoint: string, options: ApiOptions): Promise<ApiResponse> {
+  async function get(endpoint: string, options?: ApiOptions): Promise<ApiResponse> {
     try {
       const response = await fetch(`${apiUrl}/${endpoint}`, {
         credentials: "include",
@@ -52,7 +52,7 @@ const useApi = () => {
           Authorization: `Bearer ${jwtToken}`,
         },
       });
-      if(!options.avoidClear){
+      if(options && !options.avoidClear){
         checkForbidden(response);
       }
 
@@ -60,7 +60,7 @@ const useApi = () => {
 
       return data;
     } catch (error) {
-      if(!options.hideToast){
+      if(options && !options.hideToast){
         toast.setMessage({
           detail: "Internal server error, please try again later",
           severity: "danger",

@@ -2,20 +2,24 @@ import { Link, useLocation } from "@tanstack/react-router";
 import React, { useState, useEffect, useRef } from "react";
 import { v4 as uuidv4 } from "uuid";
 import Logo from "./Logo";
+import { useSession } from "../context/auth/context";
 
 type NavLink = {
   href: string;
   component?: React.FC; // If the component is provided it will replace the "label"
   label?: string;
+  hidden?: boolean;
 };
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [lineStyle, setLineStyle] = useState({ width: "0px", left: "0px" });
+  const user = useSession();
   const links: NavLink[] = [
-    { href: "/app/routines", label: "Routines" },
+    { href: "/app/routines", label: "All Routines" },
+    { href: "/app/my-routines", label: "My Routines",hidden: !user.session },
     { href: "/app/exercises", label: "Exercises" },
-    { href: "/app/settings", label: "Settings" },
+    { href: "/app/settings", label: "Settings", hidden: !user.session },
   ];
   const location = useLocation();
   const navRef = useRef<HTMLUListElement>(null);
@@ -39,7 +43,6 @@ const Navbar = () => {
       }
     }
   }, [location.pathname]);
-
   return (
     <nav id="nav-bar" className="flex justify-between p-3 relative">
       <Link to="/">
@@ -74,6 +77,7 @@ const Navbar = () => {
             key={uuidv4()}
             to={l.href}
             className={`text-amber-900 px-3 py-1 transition-all hover:text-amber-600 relative`}
+            hidden={l.hidden}
           >
             {l.label}
           </Link>
@@ -122,6 +126,7 @@ const Navbar = () => {
               <Link
                 key={uuidv4()}
                 to={l.href}
+                hidden={l.hidden}
                 className={`text-amber-900 px-3 py-1 transition-all hover:text-amber-600`}
                 onClick={toggleMenu}
               >
