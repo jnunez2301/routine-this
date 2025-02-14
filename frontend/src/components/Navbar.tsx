@@ -44,7 +44,7 @@ const Navbar = () => {
     }
   }, [location.pathname]);
   return (
-    <nav id="nav-bar" className="flex justify-between p-3 relative">
+    <nav id="nav-bar" className="flex items-center justify-between p-3 relative">
       <Link to="/">
         <Logo />
       </Link>
@@ -71,7 +71,7 @@ const Navbar = () => {
       </button>
 
       {/* Desktop Menu */}
-      <ul ref={navRef} className="hidden md:flex gap-3 relative">
+      <ul ref={navRef} className="hidden md:flex gap-3 relative max-h-10">
         {links.map((l) => (
           <Link
             key={uuidv4()}

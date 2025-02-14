@@ -1,36 +1,45 @@
-import { useQuery } from "@tanstack/react-query";
-import { useExercises } from "../../../context/app/exercise/context";
-import useExerciseService from "../../../services/useExerciseService";
-import { Exercise } from "../../../model/Exercise";
+import { BodyPartEnum } from "../../../model/Exercise";
+import { Link } from "@tanstack/react-router";
+
+function getBodyPartImage(bodyPart: string) {
+  return `/body_parts/${bodyPart.toLocaleLowerCase()}.png`;
+}
+
+function getBodyPartsParsed() {
+  return Object.values(BodyPartEnum).map((e) => {
+    return e
+      .replace("_", " ")
+      .toLowerCase()
+      .split(" ")
+      .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(" ");
+  });
+}
 
 const Exercises = () => {
-  const { getAllExercises } = useExerciseService();
-  const { exerciseList } = useExercises();
-  useQuery({
-    queryKey: ["exercises"],
-    queryFn: () => getAllExercises(),
-    staleTime: Infinity,
-  });
-  function getBodyParts(el: Exercise[]) {
-    return el && el.length > 0
-      ? Array.from(new Set(el.map((e) => e.bodyPart)))
-      : [];
-  }
-  // Divide by bodyPart and display an image about it
-  // Once body part is clicked show an animated modal that display a whole list of exercises
-  // Display it's type CALISTHENICS, WEIGHTS OR CARDIO
-  // Show a filter for "type"
-  return exerciseList ? (
-    <div id="exercise-list" className="flex gap-2 flex-wrap">
-      {getBodyParts(exerciseList).map((bodyPart) => (
-        <article key={bodyPart}>
-          <h2>{bodyPart}</h2>
-          <img src="" alt="" />
-        </article>
+  return (
+    <div id="exercise-list" className="flex gap-2 flex-wrap p-2">
+      {getBodyPartsParsed().map((bodyPart) => (
+        <Link
+          className="flex flex-col items-center justify-center font-semibold hover:opacity-50 transition-all"
+          to={`/app/exercises/${bodyPart.toLocaleLowerCase()}`}
+          key={bodyPart}
+        >
+          <header className="text-white bg-purple-800 w-full text-center">
+            <h2>{bodyPart}</h2>
+          </header>
+          <img
+            className="w-30 h-30 border rounded-sm"
+            src={getBodyPartImage(bodyPart)}
+            alt={`Image of ${bodyPart} muscle`}
+            onError={({ currentTarget }) => {
+              currentTarget.onerror = null;
+              currentTarget.src = "/logo_b.png";
+            }}
+          />
+        </Link>
       ))}
     </div>
-  ) : (
-    <p>Loading...</p>
   );
 };
 

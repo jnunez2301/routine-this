@@ -9,3 +9,20 @@ export interface Exercise {
   type: string;
   createdAt?: Date; // Optional because it has a default value
 }
+export enum ExerciseType {
+  CALISTHENIC = "CALISTHENIC",
+  WEIGHT = "WEIGHT",
+  CARDIO = "CARDIO"
+}
+export enum BodyPartEnum {
+  CHEST= "CHEST",
+  BACK= "BACK",
+  BICEPS= "BICEPS",
+  FOREARMS= "FOREARMS",
+  TRICEPS= "TRICEPS",
+  LEGS= "LEGS",
+  SHOULDERS= "SHOULDERS",
+  ABS= "ABS",
+  GLUTES= "GLUTES",
+  FULL_BODY= "FULL_BODY"
+}

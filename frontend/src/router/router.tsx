@@ -19,12 +19,13 @@ import Toast from "../components/core/Toast";
 import MyRoutines from "../pages/app/routines/myRoutines/MyRoutines";
 import PublicRoutines from "../pages/app/routines/publicRoutines/PublicRoutines";
 import Exercises from "../pages/app/exercises/Exercises";
+import ExerciseListByBodyPart from "../pages/app/exercises/ExerciseListByBodyPart";
 
 const rootRoute = createRootRoute({
   component: () => {
     const api = useApi();
     const location = useLocation();
-    const { setSession } = useSession();
+    const { setSession, session } = useSession();
     useQuery({
       queryKey: ["user-session", location.pathname],
       queryFn: () => {
@@ -39,6 +40,7 @@ const rootRoute = createRootRoute({
           });
       },
       staleTime: Infinity,
+      enabled: !session
     });
     return (
       <>
@@ -96,10 +98,15 @@ const exercises = createRoute({
   path: "/exercises",
   component: () => <Exercises />,
 });
+const exerciseList = createRoute({
+  getParentRoute: () => app,
+  path: "/exercises/$bodyPart",
+  component: () => <ExerciseListByBodyPart />,
+});
 const routeTree = rootRoute.addChildren([
   homeRoute,
   authRoute.addChildren([loginRoute, registerRoute]),
-  app.addChildren([exercises, routines, settings, myRoutines]),
+  app.addChildren([exercises, exerciseList, routines, settings, myRoutines]),
 ]);
 
 const router = createRouter({ routeTree });
